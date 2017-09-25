@@ -1,12 +1,12 @@
-# Statistics_Group-Comparisons
+# Statistics - Group Comparisons
 The aim of this repository is to show the statistical workflow when comparing groups of data in order to prove if there is significant difference between them.
 As data I provide some borrowed from my [master thesis](https://www.linkedin.com/in/odeibarredo/detail/treasury/summary/?entityUrn=urn%3Ali%3Afs_treasuryMedia%3A(ACoAACDk650BBiDdPC-DOcNkGvDFwViWdAt4Htc%2C1499870688517)) (in spanish), which consisted in a first approach to establishing background tissue concentration in macroinvertebrates of rivers from mining areas of northern Spain. This time we will only perform a statistical analysis to compare three different taxa to set if their metal levels really differ between them. The three taxa are: [Heptageniidae](http://eol.org/pages/2762776/details) (scraper), [Hydropsychidae](http://eol.org/pages/1125/overview) (collector-filterer) and [Rhyacophilidae](http://eol.org/pages/1147/overview) (predator).
 
-IMAgen macro
+![alt text](https://github.com/odeibarredo/Statistics_Group-Comparisons-IN-PROGRESS-/blob/master/img/01%20macro.jpg)
 
 ## Workflow
 
-imagen WORKFLOW
+![alt text](https://github.com/odeibarredo/Statistics_Group-Comparisons-IN-PROGRESS-/blob/master/img/02%20analysis%20flowchart.jpg)
 
 The first step is always to take a quick view of the basic features of the data, perfoming some descriptive analysis.
 
@@ -22,7 +22,9 @@ The first step is always to take a quick view of the basic features of the data,
                      Max.   :7.2300   Max.   :20.280   Max.   :2.820   Max.   :0.5200  
 ```
 
-IMAGEN DESCRIP
+
+![alt text](https://github.com/odeibarredo/Statistics_Group-Comparisons-IN-PROGRESS-/blob/master/img/03%20descriptive_plot.png)
+
 
 At first look we could think that there may be signifficant differences in the next cases:
 - As -> the three taxas
