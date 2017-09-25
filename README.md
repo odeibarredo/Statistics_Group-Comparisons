@@ -1,4 +1,4 @@
-# Statistics_Group-Comarisons
+# Statistics_Group-Comparisons
 The aim of this repository is to show the statistical workflow when comparing groups of data in order to prove if there is significant difference between them.
 As data I provide some borrowed from my [master thesis](https://www.linkedin.com/in/odeibarredo/detail/treasury/summary/?entityUrn=urn%3Ali%3Afs_treasuryMedia%3A(ACoAACDk650BBiDdPC-DOcNkGvDFwViWdAt4Htc%2C1499870688517)) (in spanish), which consisted in a first approach to establishing background tissue concentration in macroinvertebrates of rivers from mining areas of northern Spain. This time we will only perform a statistical analysis to compare three different taxa to set if their metal levels really differ between them. The three taxa are: [Heptageniidae](http://eol.org/pages/2762776/details) (scraper), [Hydropsychidae](http://eol.org/pages/1125/overview) (collector-filterer) and [Rhyacophilidae](http://eol.org/pages/1147/overview) (predator).
 
@@ -8,7 +8,7 @@ IMAgen macro
 
 imagen WORKFLOW
 
-The first step is always to take a quick view of the basic features of the data, perfoming som descriptive analysis.
+The first step is always to take a quick view of the basic features of the data, perfoming some descriptive analysis.
 
 ```r
 > summary(mydata) # quick first look at global data
