@@ -32,9 +32,58 @@ At first look we could think that there may be signifficant differences in the n
 - Cd -> Hepta vs Hydro and Rhya
 - Hg -> none
 
-In the next step we will prove if our hypothesis is true or not. To know whics statistical test we need to use we have to know if our data follows a normal distribution or not. For this case we use three approaches:
+In the next step we will prove if our hypothesis is true or not. To know which statistical test we need to use we have to know if our data follows a normal distribution or not. For this case we'll use three approaches:
 - [Skewness](https://en.wikipedia.org/wiki/Skewness) must be in range of -2 and 2
 - p value os [Shapiro-Wilk](https://en.wikipedia.org/wiki/Shapiro%E2%80%93Wilk_test) must be > 0.01
 - p value of [Levene's homogeneity of variance](https://en.wikipedia.org/wiki/Levene%27s_test) test must be > 0.01
 
+This are the results:
+
+```r
+--------------------------------------------------
+      Taxa        Metal   Shapiro.Wilk   Skewness 
+---------------- ------- -------------- ----------
+ Heptageniidae     As        0.292         0.23   
+
+ Heptageniidae     Se        0.216         0.77   
+
+ Heptageniidae     Cd        0.456         0.3    
+
+ Heptageniidae     Hg       *0.009*        1.54   
+
+ Hydropsychidae    As       *0.004*        0.68   
+
+ Hydropsychidae    Se        0.334         0.76   
+
+ Hydropsychidae    Cd        0.106       **2.6**  
+
+ Hydropsychidae    Hg         *0*          1.74   
+
+ Rhyacophilidae    As       *0.001*        0.28   
+
+ Rhyacophilidae    Se         *0*          0.33   
+
+ Rhyacophilidae    Cd         *0*          1.81   
+
+ Rhyacophilidae    Hg       *0.001*        1.53   
+--------------------------------------------------
+
+Table: *p<0.01; **-2<p>2
+
+
+---------------------
+ Metal   Levene.Test 
+------- -------------
+  As         *0*     
+
+  Se         *0*     
+
+  Cd         *0*     
+
+  Hg        0.154    
+---------------------
+
+Table: *p<0.01
+
+```
 
