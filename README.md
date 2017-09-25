@@ -87,3 +87,25 @@ Table: *p<0.01
 
 ```
 
+As we can see, some of the varaibles adjust to normal distribution and others don't. To better understand the difference we'll create some visualization for each one of the tests. For **Shapiro-Wilk** we can perform a [QQ plot](https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot), which is commonly used to detect deviations from the normal distribution.
+
+![alt text](https://github.com/odeibarredo/Statistics_Group-Comparisons-IN-PROGRESS-/blob/master/img/04%20QQplots.png)
+
+Cd in Heptageniidae fits the QQplot, Cd in Rhyacophilidae doesn't.
+
+We can visualize the **skweness** with histograms.
+
+![alt text](https://github.com/odeibarredo/Statistics_Group-Comparisons-IN-PROGRESS-/blob/master/img/05%20skewness.jpg)
+
+In the case of Hydropsychidae the density line is skewed to the left.
+
+Finally to better understand the **Levene's test** we can build some boxplots and pay attention to the whiskers.
+
+![alt text](https://github.com/odeibarredo/Statistics_Group-Comparisons-IN-PROGRESS-/blob/master/img/06%20boxplot_simple.png)
+
+Heptageniidae shows a lot of variance in all metals except in Hg, that's why Levene fails for the first three metals.
+
+ _**NOTE:**
+One important thing to consider is the amount of samples that we are working with, less than 30 for each metal and taxa. The smallest the population the harder the probability of having normal ditribution. Outliers can have a big impact._
+
+
